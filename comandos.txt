@@ -1,6 +1,7 @@
 curl -d '{"id": 2, "title": "json-server2", "author": "bastiao" }' -H "contente-type: application/json" -X POST http://localhost:3000/posts
 curl -d '{ "id": 5, "title", "author": "bastiao5" }' -X POST http://localhost:3000/posts
 curl -d '{ "id": 2, "title", "author": "bastiao5" }' -X POST http://localhost:3000/postscurl -d '{ "id": 5, "title", "author": "bastiao5" }' -X POST http://localhost:3000/posts
+curl -d
 
 curl -d '{"id": 3, "title": "json-server3", "author": "casa do código3"}' -H "Content-type:application/json" -X POST http://localhost:3000/posts
 
